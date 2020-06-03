@@ -4,6 +4,14 @@ This is just a simple app to get you started with okta.
 
 Please remember to rename "use.env" to ".env" and complete the env variables accordingly.
 
+Also, in Okta you must configure the app as follows:
+
+  - Must be set as Single Page App (SPA)
+  - Configure your Redirect URIs to match your origin + /okta/callback (e.g. http://localhost:3000/okta/callback)
+  - Login flow: Redirect to app to initiate login (OIDC Compliant)
+
+I will add some backend validation examples to the API routes in a future commit.
+
 -----------
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
