@@ -12,7 +12,7 @@
     "@okta/okta-react": "^3.0.1",
     "debug": "^4.1.1",
     "detect-browser": "^5.1.1",
-    "next": "9.4.4",
+    "next": "11.1.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "^5.2.0",
